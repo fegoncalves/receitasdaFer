@@ -1,6 +1,8 @@
-#
+# Desenvolvendo uma SPA com Angular
+## A missão é criar a primeira página front-end utilizando componentes.  
+A Instrutora desse módulo - Camila Ferreira - incluiu os seguintes desafios a serem incluídos nesse projeto:
 
-### Desafios propostos pela instrutora Camila Ferreira e concluídos:
+### Desafios propostos:
 
 - [x] Criar uma aplicação Angular
 - [X] Todo o código precisa estar no GithUB
