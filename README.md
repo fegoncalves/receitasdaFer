@@ -1,4 +1,20 @@
-# Receitas da Fer
+#
+
+### Desafios propostos pela instrutora Camila Ferreira e concluídos:
+
+- [x] Criar uma aplicação Angular
+- [X] Todo o código precisa estar no GithUB
+- [x] Criar no mínimo 3 componentes que interajam na mesma páginas com rotas
+- [x] Escolher e implementar no mínimo 4 componentes do Angular Material
+- [x] Criar em uma das páginas uma interação através da Interpolação e/ou Property Biging
+- [ ] Vídeo demonstrativo o Youtube
+
+
+___
+
+
+
+# Documentação
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
 
