@@ -1,0 +1,71 @@
+.mais-pedidas{
+  margin-top: 40px;
+}
+h1{
+  text-align: center;
+  font-weight: 500;
+}
+
+h2{
+  line-height: 1em;
+  font-size: large;
+}
+
+.card-images{ 
+  width: 100%;
+  height:auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.example-card{
+  margin: 0px 4px;
+  padding: 14px;
+  border-radius: 0;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.10);
+  -webkit-box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.10);
+  -moz-box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.10);
+  text-align: center;
+  margin-bottom: 8px;
+  width: 21%;
+}
+
+.example-card img{
+  max-width: 100%;
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center center;
+  margin: 0;
+}
+
+mat-card-actions a{
+  margin: 6px;
+}
+mat-card-content h2{
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+@media only screen and (max-width: 1349px)  {
+  .example-card {
+    width: 44%;
+  }
+}
+
+@media only screen and (max-width: 851px)  {
+  .example-card {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 680px)  {
+  .example-card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,8 @@
+h1{
+  font-weight: 500;
+}
+h1 small{
+  font-size: small;
+  vertical-align: middle;
+  color: #1B262C;
+}

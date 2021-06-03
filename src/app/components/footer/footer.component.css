@@ -1,0 +1,19 @@
+footer{
+  margin: 50px 5px 30px;
+}
+mark{
+  background-color: #FFF;
+  border: 1px solid #e0e0ec;
+  padding: 4px 8px;
+  margin: 0px 2px;
+  border-radius: 3px;
+}
+.material-icons{
+  vertical-align: middle;
+}
+.material-icons.red{
+  color: #c72c41;
+}
+.material-icons.orange{
+  color: orange;
+}

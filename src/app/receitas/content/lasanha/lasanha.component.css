@@ -1,0 +1,33 @@
+h1, h2, h3{
+  font-weight: 500;
+}
+h3{
+  margin-bottom: -2px;
+}
+h1{
+  border-top:    4px solid  #c72c41;
+  border-bottom: 4px solid #c72c41;
+  padding: 10px 0px;
+  margin-top: 12px;
+}
+span{
+  padding-right: 6px;
+  font-weight: 500;
+  font-size: medium;
+  color: #3282b8;
+}
+.ingredientes ul{
+  padding-left: 16px;
+  margin-bottom: 20px;
+}
+.span{
+  margin-bottom: 20px;
+}
+.ingredientes ul:last-child,
+.span:last-child{
+  margin-bottom: 6px;
+}
+.material-icons{
+  color: #c72c41;
+  vertical-align: middle;
+}

@@ -1,1 +1,199 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body { 
+  max-width: 1366px;
+  height: auto; 
+  margin: 0 auto;
+  background: url("assets/images/bgpadrao.jpg") repeat;
+}
+
+body { 
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+  font-size: 1em;
+}
+
+h1{
+  text-transform: uppercase;
+  color: #c72c41;
+}
+
+h2, h3{
+  color: #0f4c75;
+}
+
+hr{
+  margin: 20px 0px;
+}
+
+
+
+.sidenav{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.sidenav .navbar{
+  background-color: #1B262C;
+  width: 20%;
+  padding: 20px;
+  margin: 10px 0px;
+  border-radius: 4px;
+}
+
+.sidenav-content{
+  width: 80%;
+  padding: 0px 10px;
+  background-color: #f5f6f6;
+}
+
+nav{
+  margin-top: 30px;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  font-size: 1em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFF;
+  padding: 18px 25px;
+  display: block;
+  text-decoration: none;
+  line-height: 18px;
+}
+
+nav ul li a:hover{
+  background-color: #bbe1fa;
+  color: #1B262C;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 851px)  {
+  .sidenav .navbar{
+    width: 30%;
+    padding: 10px 2px;
+  }
+  nav{
+    font-size: small;
+  }
+}
+
+
+
+
+
+.big-banner{
+  width: 100%;
+  height: auto;
+  margin: 10px 0px;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.header img{
+  width: 130px;
+  height: auto;
+}
+
+
+
+
+/* Styles ref. as listas de cada categoria */
+#list{
+  margin: 30px 0px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.categoria-image{
+    max-width: 50%;
+}
+.categoria-image img{
+  border-radius: 4px;
+  width: 340px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center center;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 960px)  {
+  #list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .categoria-image img{
+    max-width: 700px;
+  }
+}
+
+
+
+
+
+/* Styles ref. as páginas de receitas */
+.informacoes,
+.ingredientes,
+.preparo{
+  margin: 40px 0px 40px 0px;
+  background-color: #dfe8ec;
+}
+.informacoes{
+  padding: 20px 10px;
+}
+.ingredientes,
+.preparo{
+  padding: 10px;
+  border-radius: 4px;
+}
+#list-receitas{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.images-receitas{
+  max-width: 400px;
+}
+.images-receitas img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center center;
+  margin: 10px 0px;
+  box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.10);
+  -webkit-box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.10);
+  -moz-box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.10);
+}
+.receitas-content{
+  margin: 0px 30px;
+}
+
+@media only screen and (max-width: 1080px)  {
+  #list-receitas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .images-receitas{
+    max-width: 700px;
+  }
+  .images-receitas img{
+    height: 250px;
+  }
+  .receitas-content{
+    margin: 0px 5px;
+  }
+}
