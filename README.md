@@ -22,4 +22,5 @@ A Instrutora desse módulo - Camila Ferreira - incluiu os seguintes desafios a s
 - [x] Criar em uma das páginas uma interação através da Interpolação e/ou Property Biging;
 - Interação realizada:  interpolação.
   - Adicionei no footer o meu GitHub através da interpolação, criando também um link para acesso ao mesmo.
-- [ ] Vídeo demonstrativo o Youtube (opcional).
+- [x] Vídeo demonstrativo o Youtube.
+  - Assista o vídeo [clicando aqui](https://www.youtube.com/watch?v=rkAIfus52_4).
